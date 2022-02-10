@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px 40px;
+  margin-top: 40px;
+  background-color: #ccd1dc;
+}
+.containerCard {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 600px;
+  height: 200px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 10px;
+  line-height: 1.3rem;
+  color: #3b4559;
+  border-radius: 8px;
+  background-color: #f7f7f7;
+}
+.imageCard {
+  width: 200px;
+  border-radius: 8px 0 0 8px;
+}
+.containerUser {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.containerData {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+}
+.user {
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+}
+button {
+  background-color: #f7f7f7;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+}
+button img {
+  width: 20px;
+}
+h3 {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+span {
+  color: #8e9ab1;
+  font-weight: 300;
+  font-size: 0.7rem;
+}
